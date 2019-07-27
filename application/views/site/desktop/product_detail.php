@@ -92,16 +92,18 @@
                         '
                     >
                         <div
+                            class='cimg'
                             style='
                                 width: <?= $w_img; ?>px;
                                 height: <?= $w_img; ?>px;
-                                background: yellow;
+                                background: red;
                             '
                         >
                             <img
                                 src='<?= $img != '' ? S3_URL . 'product_img/' . $p['product_pid'] . '/' . $img[0]['product_img'] : base_url() . 'assets/images/site/no-img.png'; ?>'
                                 style='
-                                    width:
+                                    max-width: <?= $w_img; ?>px;
+                                    max-height: <?= $w_img; ?>px;
                                 '
                             />
                         </div>
