@@ -1,0 +1,32 @@
+.product_1 {
+    font-size:20px;
+    color:red
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.button:hover {
+    background: white
+}
+
+.button {
+    background-color:red
+}
+
+::placeholder {
+    color:#EF424C;
+    font-family:montserrat
+}
+
+/** Carousell **/
+
+.carousell_container {
+    position:relative;
+    margin: auto;
+    max-width: 1600px;
+}
+.carousell_row {
+    display:none
+}
